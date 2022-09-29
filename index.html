@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./estilo.css">
     <link rel="stylesheet" href="normalize.css">
     <title>hola mundo</title>
     <script src="https://kit.fontawesome.com/736909225a.js" crossorigin="anonymous"></script>
@@ -15,22 +15,86 @@
 
 <body>
 <header>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Roque Molina</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active fab fa-instagram " aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fab fa-facebook" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fab fa-twitter"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <style>
+      .navbar-brand{
+	      margin-right: 1500px;
+      }
+      .fab{
+        font-size: 30px;
+        color: black;
+      }
+    </style>
 </header>
-<div class="conteiner">
-<figure class="figure">
+<main>
+  <div class="informacion">
+    <div class="conteiner">
+    </div>
+    <h1>Roque molina</h1>
+    <p>
+      programador full stack <br>
+      Buenos Aires (Argentina) <a href="#">Informacion de contacto</a>
+    </p>
+  
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Tengo intereces en</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Estudios</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Mas</a>
+        </li>
+    </ul>
+  </div>
+  <section>
+    <div class="arcerca__de">
+      <h3>Acerca de</h3><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente hic illo ad nisi commodi numquam repellat, error sunt rem? Cupiditate et harum dolorum itaque. Temporibus esse sequi perferendis velit eius!</p><i class="fa-solid fa-plus"></i>
+      
+    </div>
+    <div class="experiencia">
+      <div class="conteiner__icon">
+        <h3>Experiencia</h3><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i>
+      </div>
+      <img src="./img/company.jpg">
+      <h4>Backend Developer</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Deleniti quam tenetur modi nulla tempore saepe animi, consectetur, natus aperiam labore quisquam vitae! Ipsa, nam vitae! Numquam, at. Facilis, autem a.</p><i class="fa-solid fa-plus"></i>
+    </div>
+    <div class="educacion">
+      <div class="conteiner__icon">
+        <h3>Educacion</h3><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i>
+      </div>
+      <img src="./img/descarga.jfif">
+      <h4>Universidad de Buenos Aires</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Deleniti quam tenetur modi nulla tempore saepe animi, consectetur, natus aperiam labore quisquam vitae! Ipsa, nam vitae! Numquam, at. Facilis, autem a.</p><i class="fa-solid fa-plus"></i>
+    </div>
+  </section>
+</main>
+<footer>
 
-    <img src="./img/36182.jpg" class="figure-img img-fluid rounded" alt="...">
-
-    <figcaption class="figure-caption">Figura 1.2</figcaption>
-
-</figure>
-<div class="alert alert-primary" role="alert">
-
-    A simple primary alert—check it out!
-
-</div>
-<button type="button" class="btn btn-primary">Primary</button>      
-</div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
